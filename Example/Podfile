@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NNHoge_Example' do
+  pod 'NNHoge', :path => '../'
+
+  target 'NNHoge_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
